@@ -37,6 +37,7 @@ MYSQL_URL=mysql://utilisateur:mot_de_passe@localhost:3306/nom_de_la_bdd
 npm start
 ```
 ### API Endpoint : Validation / Activation
+```bash
 **URL** : POST /LSCCUSTOMROUND
 
 **Corps de la requête (JSON)** :
@@ -44,7 +45,7 @@ npm start
   "licenseKey": "VOTRE-CLE-ICI",
   "machineId": "ID-UNIQUE-MACHINE"
 }
-
+```
 **Réponses du serveur** :
 * 200 OK : Licence activée avec succès ou déjà valide pour cette machine.
 * 400 Bad Request : La licence est déjà utilisée par un autre appareil.
