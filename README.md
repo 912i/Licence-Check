@@ -22,6 +22,7 @@ npm install
 
 3. **Configuration du fichier .env** :
 Créez un fichier .env à la racine du projet :
+
 PORT=3000
 MYSQL_URL=mysql://utilisateur:mot_de_passe@localhost:3306/nom_de_la_bdd
 
