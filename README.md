@@ -14,23 +14,28 @@ Ce projet implémente un mécanisme de protection logicielle par verrouillage de
 ## 📦 Installation
 
 1. **Clonage du projet** :
+```bash 
 git clone <votre-repo-url>
 cd license-check
+```
 
 2. **Installation des dépendances** :
+```bash
 npm install
+```
 
 3. **Configuration du fichier .env** :
 Créez un fichier .env à la racine du projet :
-
+```bash
 PORT=3000
 MYSQL_URL=mysql://utilisateur:mot_de_passe@localhost:3306/nom_de_la_bdd
-
+```
 ## 🛠 Utilisation
 
 ### Démarrage du serveur
+```bash
 npm start
-
+```
 ### API Endpoint : Validation / Activation
 **URL** : POST /LSCCUSTOMROUND
 
