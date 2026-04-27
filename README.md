@@ -38,9 +38,9 @@ npm start
 ```
 ### API Endpoint : Validation / Activation
 ```bash
-**URL** : POST /LSCCUSTOMROUND
+URL : POST /LSCCUSTOMROUND
 
-**Corps de la requête (JSON)** :
+Corps de la requête (JSON) :
 {
   "licenseKey": "VOTRE-CLE-ICI",
   "machineId": "ID-UNIQUE-MACHINE"
