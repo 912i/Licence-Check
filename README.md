@@ -15,7 +15,7 @@ Ce projet implémente un mécanisme de protection logicielle par verrouillage de
 
 1. **Clonage du projet** :
 ```bash 
-git clone [<votre-repo-url>](https://github.com/912i/Licence-Check)
+git clone (https://github.com/912i/Licence-Check)
 cd license-check
 ```
 
